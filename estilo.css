@@ -1,0 +1,71 @@
+
+.div1{
+    position: absolute;
+    top: 22%;
+	height: 30%;
+	width: 50%;
+	left: 25%;
+	background-color: #E3E5EC;
+	text-align: center;
+	color: white;
+}
+
+.div2{
+    position: absolute;
+    top: 22%;
+	height: 30%;
+	width: 50%;
+	left: 25%;
+	background-color: #93A8E1 ;
+	text-align: center;
+	color: white;
+	font-family: Courier New;
+}
+.div3{
+    position: absolute;
+    top: 22%;
+	height: 30%;
+	width: 50%;
+	left: 25%;
+	background-color: #374F92 ;
+	text-align: center;
+	color: white;
+	font-family: Courier New;
+}
+.div4{
+    position: absolute;
+    top: 22%;
+	height: 30%;
+	width: 50%;
+	left: 25%;
+	background-color:#0D1E4B  ;
+	text-align: center;
+	color: white;
+	font-family: Courier New;
+}
+.cajatexto{
+	position: absolute;
+    top: 62%;
+	height: 4%;
+	width: 20%;
+	left: 39%;
+
+}
+.titulo{
+	position: absolute;
+    top: 5%;
+    left: 31%;
+}
+.text{
+	position: absolute;
+    top: 53%;
+    left: 42%;
+    font-family: Courier New;
+}
+.t1{
+position: absolute;
+    top: 25%;
+    left: 5%;
+    font-family: Courier New;
+    font-size: 130%
+}

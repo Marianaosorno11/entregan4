@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TAREA</title>
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<link rel="icon" type="image/png" href="yo.png"/>
+</head>
+
+<body onkeyup="teclado()" background="fondo.png">
+	<img src="titulo.png" class="titulo" style="width: 40%">
+	<h1><div class="div1" id="div"></div></h1>
+       <p class="t1">OPRIMA<br>A = AZUL CLARO <br> B = AZUL MEDIO <BR> C = AZUL OSCURO</p>
+	<p class="text">ESCRIBA LO QUE DESEE</p>
+	<input type="text" name="caja" id="caja" class="cajatexto">
+<script>  
+	function teclado(){
+		
+		if (event.code=="KeyA")
+       {
+       	document.getElementById("div").className="div2";
+       	var text=document.getElementById('caja').value;
+       	var div=document.getElementById('div').innerHTML=text;
+       	
+       }
+       if (event.code=="KeyB")
+       {
+       	document.getElementById("div").className="div3";
+       	var text=document.getElementById('caja').value;
+       	var div=document.getElementById('div').innerHTML=text;
+       }
+       if (event.code=="KeyC")
+       {
+       	document.getElementById("div").className="div4";
+       	var text=document.getElementById('caja').value;
+       	var div=document.getElementById('div').innerHTML=text;
+       }
+       
+	}
+</script>
+</body>
+</html>
